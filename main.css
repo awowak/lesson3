@@ -1,0 +1,46 @@
+p {
+	width: 250px;
+}
+.one {
+	padding: 10px;
+	border: solid purple 10px;
+	margin: 100px;
+}
+
+.two {
+	display: block;
+	margin: 20px;
+	border: dashed green 20px;
+	padding: 50px;
+}
+
+.three {
+	display: inline;
+	border: dotted orange 30px;
+	margin: 20px;
+	padding: 50px;
+}
+
+.four {
+	display: inline-block;
+	border: solid red 20px;
+	padding: 50px;
+}
+
+.container {
+	background-color: yellow;
+	padding: 20px;
+	border: solid 1px green;
+}
+
+.float-me {
+	height: 50px;
+	width: 220px;
+	background-color: red;
+	border: dashed 3px blue;
+	float: right;
+}
+
+.clearfix {
+	*zoom:1;
+}
